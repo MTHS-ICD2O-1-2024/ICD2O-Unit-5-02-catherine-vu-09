@@ -6,6 +6,10 @@
 
 'use strict'
 
+/**
+ * This function generates random positive or negative number
+ */
+// eslint-disable-next-line no-unused-vars
 const positiveRandomNumber = Math.floor(Math.random() * 6) + 1
 const negativeRandomNumber = Math.floor(Math.random() * 6) * -1
 
